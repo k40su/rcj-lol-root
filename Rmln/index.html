@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="0; url=https://open.spotify.com/track/4y6SkQ4Tg8cOV9IYrG6Wrt?si=808b9a5d9c0946b3">
+  <title>short url</title>
+  <style>
+    /* --- Base Reset & Font --- */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #0d1117; /* Dark background */
+      color: #ffffff;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: clamp(1.5rem, 4vw, 2.5rem);
+      font-weight: 600;
+      margin-bottom: 2rem;
+      letter-spacing: 1px;
+    }
+
+    /* --- Button --- */
+    .glow-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.9rem 1.8rem;
+      background-color: #FFFFFF;
+      color: #000;
+      text-decoration: none;
+      border: none;
+      border-radius: 50px;
+      font-size: 1.1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: box-shadow 0.3s ease, transform 0.2s ease;
+      position: relative;
+    }
+
+    .glow-btn::after {
+      content: '➜';
+      margin-left: 0.6em;
+      font-size: 1.2em;
+      transition: transform 0.3s ease;
+    }
+
+    .glow-btn:hover {
+      box-shadow: 0 0 12px 2px #FFFFFF;
+      transform: translateY(-2px);
+    }
+
+    .glow-btn:hover::after {
+      transform: translateX(4px);
+    }
+
+    /* --- Responsiveness --- */
+    @media (max-width: 480px) {
+      .glow-btn {
+        font-size: 1rem;
+        padding: 0.8rem 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>redirecting..</h1>
+  <a href="https://open.spotify.com/track/4y6SkQ4Tg8cOV9IYrG6Wrt?si=808b9a5d9c0946b3" class="glow-btn">continue</a>
+</

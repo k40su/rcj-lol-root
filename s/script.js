@@ -2,7 +2,7 @@ const params = new URLSearchParams(window.location.search);
 const id = params.get('id')?.toLowerCase();
 
 const redirectMap = {
-    'fxx09g':  'https://files.kaosu-hosting.online/f/388-ms_s4.zip',
+    'fxx09g':  'https://usercontent.kaosu-hosting.online/download?id=x17lco',
 };
 
 const destination = redirectMap[id];
@@ -16,4 +16,5 @@ if (destination) {
     window.location.replace(finalUrl.toString());
 } else {
     document.body.innerHTML = '<h1>Invalid or missing ID</h1>';
+
 }
